@@ -1,0 +1,331 @@
+
+<html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <!-- font awesome -->
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+          <!--Import Google Icon Font-->
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+          <!-- Compiled and minified CSS -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+          <title>AS</title>
+          <style>
+            .icon-bar{
+              width:70px;
+              background-color: indigo;
+              top: 300px;
+            }
+            .icon-bar a{
+              display: block;
+              text-align: center;
+              padding : 16px;
+              transition: all 0.3s ease;
+              color: white;
+              font-size: 36px;
+            }
+            .icon-bar a:hover{
+              background-color: #000;
+              }  
+              header{
+                  background: url(img/city.jpg);
+                  background-size: cover;
+                  background-position:  center;
+                  min-height: 1000px;
+              }
+              @media screen and (max-width: 670px){
+                header{
+                  min-height: 500px;
+                }
+              }
+              .section{
+                padding-top: 4vw;
+                padding-bottom: 4vw;
+              }
+              .container{
+                position: relative;
+                max-width: 800px;
+              }
+             .container content {
+                  position: relative; /* Position the background text */
+                  bottom: 0px; /* At the bottom. Use top:0 to append it to the top */
+                  background: rgb(0, 0, 0.5); /* Fallback color */
+                  background: rgba(0, 0, 0, 2.0); /* Black background with 0.5 opacity */
+                  color: #f1f1f1; /* Grey text */
+                  width: 100%; /* Full width */
+                  padding: 0px; /* Some padding */
+}
+          </style>
+        </head>
+        <body>
+            <header>
+                 <nav class="nav-wrapper transparent">
+                   <div class="container">
+                     <a href="" class="brand-logo">Anany Sharma</a>
+                     <a href="" class="sidenav-trigger" data-target="mobile">
+                       <i class="material-icons">menu</i>
+                     </a>
+                     <ul class="right hide-on-med-and-down">
+                       <li><a href="#photos">Photos</a></li>
+                       <li><a href="#services">Services</a></li>
+                       <li><a href="#contact">Contact</a></li>
+                       <li>
+                         <a href="#" class="tooltipped btn-floating btn-small pulse indigo " data-tooltip="Instagram">
+                           <i class="fab fa-instagram"></i>
+                         </a>
+                       </li>
+                       <li>
+                          <a href="#" class="tooltipped btn-floating btn-small pulse indigo " data-tooltip="Facebook">
+                            <i class="fab fa-facebook"></i>
+                          </a>
+                        </li>
+                        <li>
+                            <a href="#" class="tooltipped btn-floating btn-small pulse indigo " data-tooltip="Twitter">
+                              <i class="fab fa-twitter"></i>
+                            </a>
+                          </li>
+                     </ul>  
+                      
+                     <ul class="sidenav grey" id ="mobile">
+                      <li><a href="#">Photos</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Contact</a></li>
+                       </ul>
+                      </ul>                                               
+                   </div>
+                   <div class="icon-bar">
+                     <a href="#" class=" tooltipped active" data-tooltip="Home"><i class="fa fa-home"></i></a>
+                     <a href="#" class="tooltipped" data-tooltip="Facebook"><i class="fab fa-facebook"></i></a>
+                     <a href="#" class="tooltipped" data-tooltip="Twitter"><i class="fab fa-twitter"></i></a>
+                     <a href="#" class="tooltipped" data-tooltip="Instagram"><i class="fab fa-instagram"></i></a>
+
+                    </div>
+                    <div class="content">
+                        <h3>Heading</h3>
+                        <p>Lorem ipsum  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                            lamco laboris nisi ut aliquip ex ea commod  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                            lamco laboris nisi ut aliquip ex ea commod.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                            lamco laboris nisi ut aliquip ex ea commod.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                            lamco laboris nisi ut aliquip ex ea commod.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                        lamco laboris nisi ut aliquip ex ea commod.  </p>
+                    </div>
+                  </div>
+                 </nav>
+                 
+            </header>
+            
+                  
+        
+  
+        
+          <!-- photo / grid -->
+          <section class="container section scrollspy" id="photos">
+            <div class="row">
+              <div class="col s12 l4">
+                <img src="img/portrait.jpg" alt="" class="responsive-img materialboxed">
+              </div>
+              <div class="col s12 l6 offset-l1">
+                <h2 class="indigo-text text-darken-4">Portraits</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consecte eniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod. 
+                </p>
+              </div>
+            </div>
+
+            
+                <div class="row">
+                  <div class="col s12 l4 push-l7 ">
+                    <img src="img/nature.jpg" alt="" class="responsive-img materialboxed">
+                  </div>
+                  <div class="col s12 l6 pull-l5 right-align">
+                    <h2 class="indigo-text text-darken-4">Nature</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                        lamco laboris nisi ut aliquip ex ea commod. 
+                    </p>
+                  </div>
+                </div>
+
+                
+                    <div class="row">
+                      <div class="col s12 l4">
+                        <img src="img/city.jpg" alt="" class="responsive-img materialboxed">
+                      </div>
+                      <div class="col s12 l6 offset-l1">
+                        <h2 class="indigo-text text-darken-4">Cityscape</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                            magna aliqua. Ut enim ad
+                        </p>
+                      </div>
+                    </div>
+          </section>
+          <div class="parallax-container">
+            <div class="parallax">
+              <img src="img/stars.jpg" alt="" class="responsive-img">
+            </div>
+          </div>
+
+          <section class="container section scrollspy" id="services">
+              <div class="row">
+                <div class="col s12 l4">
+                  <h2 class="indigo-text text-darken-4">What I do...</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                      magna aliqua. Ut enim ad</p>
+                </div>
+                <div class="col s12 l4 offset-l2">
+                  <ul class="tabs">
+                    <li class="tab col s6">
+                      <a href="#pg" class="indigo-text text-darken-4">Professional Skills</a>
+                    </li>
+                    <li class="tab col s6">
+                        <a href="#ed" class="indigo-text text-darken-4">Soft skills</a>
+                      </li>
+                  </ul>
+                  <div class="col s12" id="pg">
+                    <p class="flow-text indigo-text text-darken-4">Professional skills</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                            magna aliqua. Ut enim ad
+                        </p>
+                      </div>
+                        <div class="col s12" id="ed">
+                        <p class="flow-text indigo-text text-darken-4">Soft skills</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                            magna aliqua. Ut enim ad
+                        </p>
+                      </div>
+                  </div>
+              </div>
+            </section>
+
+
+
+          <div class="parallax-container">
+              <div class="parallax">
+                <img src="img/man.jpg" alt="" class="responsive-img">
+              </div>
+            </div>
+  
+            
+            <section class="container section scrollspy" id="contact">
+                <div class="row">
+                  <div class="col s12 l5">
+                    <h2 class="indigo-text text-darken-4">Get in Touch...</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                        magna aliqua. Ut enim ad
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                        magna aliqua. Ut enim ad
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                        magna aliqua. Ut enim ad
+                    </p>
+                  </div>
+                  <div class="col s12 l5 offset-l2">
+                    <form action="">
+                      <div class="input-field">
+                        <i class="material-icons prefix ">email</i>
+                        <input type="email" id="email">
+                        <label for="email">Your Email</label>
+                      </div>
+
+                      <div class="input-field">
+                          <i class="material-icons prefix ">message</i>
+                          <textarea  id="message" cols="30" rows="10" class="materialize-textarea"></textarea>
+                          <label for="message">Your message</label>
+                        </div>
+                        <div class="input-field">
+                          <input type="text" id="date" class="datepicker">
+                          <label for="date">Enter the date</label>
+                        </div>
+                        <p>Services reqiured...</p>
+                        <div class="input-field">
+                          <p>
+                            <label>
+                              <input type="checkbox">
+                                <span>Professional skills</span>
+                            </label>
+                          </p>
+                          <p>
+                              <label>
+                                <input type="checkbox">
+                                <span>
+                                  Soft skills
+                                </span>
+                              </label>
+                            </p>
+                        </div>
+                        <div class="input-field center">
+                          <button class="btn waves-effect z-depth-4">Submit</button>
+                        </div>
+                    </form>
+                  </div>
+                </div>
+                
+              </section>
+
+
+              <footer class="page-footer grey darken-3">
+                <div class="container">
+                  <div class="row">
+                    <div class="col s12 l6">
+                      <h3>About Me...</h3>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                          magna aliqua. Ut enim ad 
+                      </p>
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                          magna aliqua. Ut enim ad</p>
+                    </div>
+                  
+                  <div class="col s12 l4 offset-l2">
+                    <h3>Connect</h3>
+                    <ul>
+                      <li><a href="#" class="grey-text text darken-3">Facebook</a></li>
+                      <li><a href="#" class="grey-text text darken-3">Twitter</a></li>
+                      <li><a href="#" class="grey-text text darken-3">LinkedIn</a></li>
+                      <li><a href="#" class="grey-text text darken-3">Instagram</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-copyright grey darken-4">
+                <div class="container center-align">&copy;2019 Anany Sharma</div>
+              </div>
+              </footer>
+          <!-- parallax -->
+        
+          <!-- services / tabs -->
+          
+        
+          <!-- parallax -->
+        
+          <!-- contact form -->
+        
+          <!-- footer -->
+        
+          <!-- Compiled and minified JavaScript -->
+          <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+          <script>
+            $(document).ready(function(){
+              $('.sidenav').sidenav();
+              $('.materialboxed').materialbox();
+              $('.parallax').parallax();
+              $('.tabs').tabs();
+              $('.datepicker').datepicker();
+              $('.tooltipped').tooltip();
+              $('.scrollspy').scrollSpy();
+            });
+          </script>
+        </body>
+        </html>
